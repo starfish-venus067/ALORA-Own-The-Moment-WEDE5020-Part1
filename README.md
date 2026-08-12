@@ -1,4 +1,4 @@
-# ALORA-Own-The-Moment clothing brand
+# ALORAOwnTheMomentClothingbrand
 Desire Mashiafane st10519521 ICT in Software Development-WEDE5020
 ## Project overview
 ALORA was created in 2026. it is an individual project.
