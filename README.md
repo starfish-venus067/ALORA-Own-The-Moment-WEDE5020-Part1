@@ -60,7 +60,7 @@ Users can view products, navigate between pages, view product information, selec
 
 Part 1 focused on creating the basic structure of the ALORA website using HTML.
 
-##Part 2 Details
+## Part 2 Details
 part 2 focused on adding layouts, decorations and typography using CSS and.
 
 ## Sitemap
@@ -89,7 +89,6 @@ The ALORA website contains the following pages:
 ALORA is a clothing brand created to provide comfortable and stylish clothing while allowing customers to explore the collection and make enquiries through the website.
 
 ## References
-## References
 
 - MDN Web Docs. (2026). HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
 
@@ -109,7 +108,3 @@ ALORA is a clothing brand created to provide comfortable and stylish clothing wh
 
 - WHATWG. (2026). HTML Living Standard. Available at: https://html.spec.whatwg.org/
 
-References used during the development of the website:
-
-- W3Schools
-- [Add any other websites, tutorials, images, or resources you actually used here]
