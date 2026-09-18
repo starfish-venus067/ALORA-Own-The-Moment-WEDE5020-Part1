@@ -49,16 +49,19 @@ Users can view products, navigate between pages, view product information, selec
 - Added forms.
 - Added navigation between pages.
 - Added CSS styling.
-- Added JavaScript functionality.
 
 ### Testing and Completion
 - Tested the website pages and links.
 - Checked the forms and website layout.
 - Made improvements to the website design and functionality.
+- Check the screen sizes of the website using different devices.
 
 ## Part 1 Details
 
-Part 1 focused on creating the basic structure of the ALORA website using HTML, CSS and JavaScript.
+Part 1 focused on creating the basic structure of the ALORA website using HTML.
+
+##Part 2 Details
+part 2 focused on adding layouts, decorations and typography using CSS and.
 
 ## Sitemap
 
@@ -79,7 +82,6 @@ The ALORA website contains the following pages:
 - Added forms.
 - Added map.
 - Added CSS styling.
-- Added JavaScript functionality.
 - Updated website navigation.
 
 ## Brand Description
@@ -87,6 +89,25 @@ The ALORA website contains the following pages:
 ALORA is a clothing brand created to provide comfortable and stylish clothing while allowing customers to explore the collection and make enquiries through the website.
 
 ## References
+## References
+
+- MDN Web Docs. (2026). HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+- MDN Web Docs. (2026). CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+- MDN Web Docs. (2026). JavaScript. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+- MDN Web Docs. (2026). Web forms. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms
+
+- W3Schools. (2026). HTML Tutorial. Available at: https://www.w3schools.com/html/
+
+- W3Schools. (2026). CSS Tutorial. Available at: https://www.w3schools.com/css/
+
+- W3Schools. (2026). JavaScript Tutorial. Available at: https://www.w3schools.com/js/
+
+- W3Schools. (2026). HTML Forms. Available at: https://www.w3schools.com/html/html_forms.asp
+
+- WHATWG. (2026). HTML Living Standard. Available at: https://html.spec.whatwg.org/
 
 References used during the development of the website:
 
