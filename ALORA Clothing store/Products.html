@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop | ALORA</title>
+
+<meta name="description" content="Shop the ALORA clothing collection in South Africa. Explore stylish T-shirts, sweaters, hoodies, joggers, hats, bags and accessories at ALORA.">
+
+    <link rel="stylesheet" href="css/Style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                <img src="images/ALORA logo 1.png" alt="ALORA Logo">
+            </div>
+
+            <div class="nav-links">
+                <a href="Index.html">Homepage</a>
+                <a href="About us.html">About us</a>
+                <a href="Products.html">Shop</a>
+                <a href="Enquiry.html">Enquiry</a>
+                <a href="Contact.html">Contact us</a>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- PRODUCTS PAGE -->
+    <main>
+
+        <section class="page-header">
+
+            <h1>THE COLLECTION</h1>
+
+            <p>Explore selected pieces from ALORA</p>
+
+        </section>
+
+
+        <!-- PRODUCTS COLLECTION -->
+        <section class="products">
+
+ <!-- PRODUCT CATEGORY FILTER -->
+
+<div class="product-search">
+    <input
+        type="text"
+        id="product-search"
+        placeholder="Search for a product..."
+    >
+</div>
+
+<section class="product-categories">
+
+    <button class="filter-btn active" data-filter="all">ALL</button>
+    <button class="filter-btn" data-filter="bottoms">BOTTOMS</button>
+    <button class="filter-btn" data-filter="tops">TOPS</button>
+    <button class="filter-btn" data-filter="hats">HATS</button>
+    <button class="filter-btn" data-filter="accessories">ACCESSORIES</button>
+    <button class="filter-btn" data-filter="bags">BAGS</button>
+    <button class="filter-btn" data-filter="co-ord-sets">CO-ORD SETS</button>
+
+</section>
+
+<div class="product-sorting">
+    <label for="sort-price">Sort by price:</label>
+
+    <select id="sort-price">
+        <option value="default">Default</option>
+        <option value="low-high">Price: Low to High</option>
+        <option value="high-low">Price: High to Low</option>
+    </select>
+</div>
+
+<p id="no-products" class="no-products" hidden>
+    No products available in this category yet.
+</p>
+
+        <!-- PRODUCT 1 -->
+            <article class="product-card" data-category="tops">
+
+                <img src="Images/T-shirt.jpg"
+                     alt="ALORA White T-Shirt">
+
+                <div class="product-info">
+
+                    <h2>ALORA White T-Shirt</h2>
+
+                    <p>
+                        A clean and comfortable everyday T-shirt
+                        featuring the ALORA design.
+                    </p>
+
+                    <select>
+                        <option>Off-White</option>
+                        <option>Washed Black</option>
+                        <option>Stone Gray</option>
+                        <option>Chocolate Brown</option>
+                        <option>Navy Blue</option>
+                    </select>
+
+                    <p class="price">R449.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+            <article class="product-card" data-category="tops">
+
+                <img src="Images/sweater.jpg"
+                     alt="ALORA Own The Moment Sweater">
+
+                <div class="product-info">
+
+                    <h2>ALORA Own The Moment Sweater</h2>
+
+                    <p>
+                        A comfortable and warm sweater while
+                        owning every moment.
+                    </p>
+
+                    <select>
+                        <option>Light Brown</option>
+                        <option>Charcoal Black</option>
+                        <option>Stone Gray</option>
+                        <option>Cream</option>
+                        <option>White</option>
+                    </select>
+
+                    <p class="price">R699.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+            <article class="product-card" data-category="tops">
+
+                <img src="Images/hoodie.jpg"
+                     alt="ALORA Hoodie">
+
+                <div class="product-info">
+
+                    <h2>ALORA Hoodie OTM</h2>
+
+                    <p>
+                        A comfortable and warm hoodie you can
+                        wear while owning every moment.
+                    </p>
+
+                    <select>
+                        <option>Washed Black</option>
+                        <option>Off-White</option>
+                        <option>Stone Gray</option>
+                        <option>Chocolate Brown</option>
+                        <option>Mocha</option>
+                    </select>
+
+                    <p class="price">R749.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4 -->
+            <article class="product-card" data-category="bottoms">
+
+                <img src="Images/joggers.jpg"
+                     alt="ALORA Joggers">
+
+                <div class="product-info">
+
+                    <h2>ALORA Joggers</h2>
+
+                    <p>
+                        Comfortable joggers designed for casual wear.
+                    </p>
+
+                    <select>
+                        <option>Charcoal</option>
+                        <option>Black</option>
+                        <option>Sand Beige</option>
+                        <option>Mocha</option>
+                        <option>Slate Blue</option>
+                    </select>
+
+                    <p class="price">R399.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 5 -->
+            <article class="product-card" data-category="hats">
+
+                <img src="Images/cap.jpg"
+                     alt="ALORA Cap">
+
+                <div class="product-info">
+
+                    <h2>ALORA Cap</h2>
+
+                    <p>
+                        A minimal cap featuring the ALORA identity
+                        for a simple finishing touch.
+                    </p>
+
+                    <select>
+                        <option>Black</option>
+                        <option>Cream</option>
+                        <option>Forest Green</option>
+                        <option>Navy</option>
+                        <option>Burgundy</option>
+                    </select>
+
+                    <p class="price">R259.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 6 -->
+            <article class="product-card" data-category="bags">
+
+                <img src="Images/black handbag.jpg"
+                     alt="ALORA Black Handbag">
+
+                <div class="product-info">
+
+                    <h2>ALORA Black Handbag</h2>
+
+                    <p>
+                        A stylish black handbag designed to complement
+                        your everyday look.
+                    </p>
+
+                    <select>
+                        <option>Black</option>
+                        <option>Brown</option>
+                        <option>Cream</option>
+                    </select>
+
+                    <p class="price">R349.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 7 -->
+            <article class="product-card" data-category="accessories">
+
+                <img src="Images/bow necklace.jpg"
+                     alt="ALORA Bow Necklace">
+
+                <div class="product-info">
+
+                    <h2>ALORA Bow Necklace</h2>
+
+                    <p>
+                        A delicate bow necklace designed to add
+                        an elegant finishing touch.
+                    </p>
+
+                    <select>
+                        <option>Gold</option>
+                        <option>Silver</option>
+                        <option>Rose Gold</option>
+                    </select>
+
+                    <p class="price">R199.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 8 -->
+            <article class="product-card" data-category="hats">
+
+                <img src="Images/brown cap.jpg"
+                     alt="ALORA Brown Cap">
+
+                <div class="product-info">
+
+                    <h2>ALORA Brown Cap</h2>
+
+                    <p>
+                        A classic brown cap with a simple ALORA style.
+                    </p>
+
+                    <select>
+                        <option>Brown</option>
+                        <option>Black</option>
+                        <option>Cream</option>
+                    </select>
+
+                    <p class="price">R449.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 9 -->
+            <article class="product-card" data-category="bags">
+
+                <img src="Images/fashion bag.jpg"
+                     alt="ALORA Fashion Bag">
+
+                <div class="product-info">
+
+                    <h2>ALORA Fashion Bag</h2>
+
+                    <p>
+                        A fashionable everyday bag designed for
+                        a stylish look.
+                    </p>
+
+                    <select>
+                        <option>Black</option>
+                        <option>Brown</option>
+                        <option>Cream</option>
+                    </select>
+
+                    <p class="price">R799.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 10 -->
+            <article class="product-card" data-category="accessories">
+
+                <img src="Images/pearls.jpg"
+                     alt="ALORA Pearl Necklace">
+
+                <div class="product-info">
+
+                    <h2>ALORA Pearl Necklace</h2>
+
+                    <p>
+                        Elegant pearls designed for a classic
+                        and timeless appearance.
+                    </p>
+
+                    <select>
+                        <option>White</option>
+                        <option>Cream</option>
+                    </select>
+
+                    <p class="price">R349.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 11 -->
+            <article class="product-card" data-category="tops">
+
+                <img src="Images/raffle dress.jpg"
+                     alt="ALORA Ruffle Dress">
+
+                <div class="product-info">
+
+                    <h2>ALORA Ruffle Dress</h2>
+
+                    <p>
+                        A beautiful ruffle dress designed for
+                        an elegant and feminine look.
+                    </p>
+
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Burgundy</option>
+                        <option>Brown</option>
+                    </select>
+
+                    <p class="price">R659.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 12 -->
+            <article class="product-card" data-category="hats">
+
+                <img src="Images/red straight cap.jpg"
+                     alt="ALORA Red Straight Cap">
+
+                <div class="product-info">
+
+                    <h2>ALORA Red Straight Cap</h2>
+
+                    <p>
+                        A bold red cap designed to complete
+                        your casual outfit.
+                    </p>
+
+                    <select>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>White</option>
+                    </select>
+
+                    <p class="price">R449.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 13 -->
+            <article class="product-card" data-category="accessories">
+
+                <img src="Images/round necklace.jpg"
+                     alt="ALORA Round Necklace">
+
+                <div class="product-info">
+
+                    <h2>ALORA Round Necklace</h2>
+
+                    <p>
+                        A simple round necklace for a clean
+                        and elegant appearance.
+                    </p>
+
+                    <select>
+                        <option>Gold</option>
+                        <option>Silver</option>
+                    </select>
+
+                    <p class="price">R149.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 14 -->
+            <article class="product-card" data-category="bags">
+
+                <img src="Images/small bag.jpg"
+                     alt="ALORA Small Bag">
+
+                <div class="product-info">
+
+                    <h2>ALORA Small Bag</h2>
+
+                    <p>
+                        A compact and stylish bag perfect for
+                        carrying your everyday essentials.
+                    </p>
+
+                    <select>
+                        <option>Black</option>
+                        <option>Brown</option>
+                        <option>Cream</option>
+                    </select>
+
+                    <p class="price">R299.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 15 -->
+            <article class="product-card" data-category="bags">
+
+                <img src="Images/star bag.jpg"
+                     alt="ALORA Star Bag">
+
+                <div class="product-info">
+
+                    <h2>ALORA Star Bag</h2>
+
+                    <p>
+                        A stylish star-detail bag designed to
+                        make your outfit stand out.
+                    </p>
+
+                    <select>
+                        <option>Black</option>
+                        <option>Brown</option>
+                        <option>Cream</option>
+                    </select>
+
+                    <p class="price">R449.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 16 -->
+            <article class="product-card" data-category="hats">
+
+                <img src="Images/straight cap.jpg"
+                     alt="ALORA Straight Cap">
+
+                <div class="product-info">
+
+                    <h2>ALORA Straight Cap</h2>
+
+                    <p>
+                        A classic straight cap designed for
+                        everyday casual wear.
+                    </p>
+
+                    <select>
+                        <option>Black</option>
+                        <option>Brown</option>
+                        <option>White</option>
+                    </select>
+
+                    <p class="price">R349.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 17 -->
+            <article class="product-card" data-category="bags">
+
+                <img src="Images/white bag.jpg"
+                     alt="ALORA White Bag">
+
+                <div class="product-info">
+
+                    <h2>ALORA White Bag</h2>
+
+                    <p>
+                        A clean and elegant white bag for
+                        everyday styling.
+                    </p>
+
+                    <select>
+                        <option>White</option>
+                        <option>Cream</option>
+                        <option>Black</option>
+                    </select>
+
+                    <p class="price">R649.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+<!-- PRODUCT 18 -->
+            <article class="product-card" data-category="tops">
+
+                <img src="Images/flame hoodie.jpg"
+                     alt="ALORA White Bag">
+
+                <div class="product-info">
+
+                    <h2>ALORA flames up hoodie</h2>
+
+                    <p>
+                        A clean and warm
+                        everyday styling hoodie.
+                    </p>
+
+                    <select>
+                        <option>White</option>
+                        <option>Cream</option>
+                        <option>Black</option>
+                    </select>
+
+                    <p class="price">R749.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+<!-- PRODUCT 19 -->
+            <article class="product-card" data-category="bottoms">
+
+                <img src="Images/alora jorts.jpg"
+                     alt="ALORA White Bag">
+
+                <div class="product-info">
+
+                    <h2>ALORA Jorts</h2>
+
+                    <p>
+                       Stylsh jean jorts for streetwear.
+                    </p>
+
+                    <select>
+                        <option>Grey</option>
+                        <option>Brown</option>
+                        <option>Black</option>
+                    </select>
+
+                    <p class="price">R849.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+<!-- PRODUCT 20 -->
+            <article class="product-card" data-category="co-ords">
+
+                <img src="Images/swag down.jpg"
+                     alt="ALORA two piece">
+
+                <div class="product-info">
+
+                    <h2>Alora Swag down</h2>
+
+                    <p>
+                        A clean and comfortable for
+                        everyday styling.
+                    </p>
+
+                    <select>
+                        <option>White</option>
+                        <option>Cream</option>
+                        <option>Black</option>
+			<option>Grey</option>
+                    </select>
+
+                    <p class="price">R609.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+<!-- PRODUCT 20 -->
+            <article class="product-card" data-category="bottoms">
+
+                <img src="Images/darker pants.jpg"
+                     alt="ALORA two piece">
+
+                <div class="product-info">
+
+                    <h2>Alora 94 Jorts</h2>
+
+                    <p>
+                        A clean and comfortable for
+                        everyday styling.
+                    </p>
+
+                    <select>
+                        <option>White</option>
+                        <option>Cream</option>
+                        <option>Black</option>
+			<option>Grey</option>
+                    </select>
+
+                    <p class="price">R869.99</p>
+
+                    <a href="Enquiry.html" class="enquire-button">
+                        Enquire
+                    </a>
+
+                </div>
+
+            </article>
+
+
+                <!-- PRODUCT IMAGE POPUP -->
+       <div id="image-modal" class="image-modal">
+            <span id="close-modal" class="close-modal">&times;</span>
+               <img id="modal-image" src="" alt="Enlarged ALORA product">
+       </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>&copy; 2026 ALORA. All rights reserved.</p>
+
+    </footer>
+<script src="js/javascript.js"></script>
+</body>
+</html>

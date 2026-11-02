@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://starfish-venus067.github.io/ALORA-Own-The-Moment-WEDE5020-Part1/sitemap.xml

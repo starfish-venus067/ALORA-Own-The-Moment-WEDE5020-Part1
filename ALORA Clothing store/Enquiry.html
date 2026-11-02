@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enquiry | ALORA</title>
+
+<meta name="description" content="Send an enquiry to ALORA Clothing about our products, prices, availability and clothing collection. We are happy to assist with your shopping questions.">
+
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Images/ALORA logo 1.png" alt="ALORA Logo">
+            </div>
+
+            <div class="nav-links">
+                <a href="Index.html">Homepage</a>
+                <a href="About us.html">About us</a>
+                <a href="Products.html">Shop</a>
+                <a href="Enquiry.html">Enquiry</a>
+                <a href="Contact.html">Contact us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-header">
+            <h1>Make an Enquiry</h1>
+            <p>Interested in an ALORA product? Send us an enquiry.</p>
+        </section>
+
+        <section class="enquiry-section">
+
+            <form class="enquiry-form" id="enquiry-form">
+
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <label for="phone">Phone Number</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                >
+
+                <label for="products">Products</label>
+                <select id="products" name="products" required>
+                    <option value="">Select product</option>
+                    <option value="T-shirt">ALORA T-shirt</option>
+                    <option value="Joggers">ALORA Joggers</option>
+                    <option value="Hoodie">ALORA Hoodie</option>
+                    <option value="Cap">ALORA Cap</option>
+                    <option value="Sweater">ALORA Sweater</option>
+                </select>
+
+                <label for="size">Size</label>
+                <select id="size" name="size">
+                    <option value="">Select a size</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <option value="Extra-Large">Extra-Large</option>
+                    <option value="Not applicable">Not applicable</option>
+                </select>
+
+                <label for="message">Enquiry</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Tell us what you would like to know"
+                    required
+                ></textarea>
+
+                <button type="submit">Send Enquiry</button>
+
+                <p id="enquiry-message" aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ALORA. All rights reserved.</p>
+    </footer>
+
+    <script src="js/javascript.js"></script>
+
+</body>
+</html>
