@@ -1,3 +1,4 @@
+
 # ALORA - Own The Moment Clothing Brand
 
 **Student Name:** Desire Mashiafane  
@@ -7,8 +8,7 @@
 
 ## Project Overview
 
-ALORA was created in 2026 as an individual web development project.  
-ALORA is a clothing brand focused on comfortable and stylish clothing.
+ALORA was created in 2026 as an individual web development project. ALORA is a South African clothing brand focused on comfortable, stylish and timeless clothing.
 
 ## Website Goals and Objectives
 
@@ -25,16 +25,24 @@ The goals and objectives of the ALORA website are:
 
 The website includes the following features:
 
-- Product catalogue
-- Product images
-- Colour choices
-- Navigation menu
-- Enquiry form
-- Contact page
-- About Us page
-- Homepage
+- Product catalogue and product images.
+- Navigation menu connecting all website pages.
+- Product category filtering.
+- Product search functionality.
+- Price sorting from lowest to highest and highest to lowest.
+- Product image popup gallery.
+- FAQ accordion on the About Us page.
+- Interactive map showing Pretoria, South Africa.
+- Enquiry form with form validation.
+- Contact form that prepares an email.
+- Homepage with product categories and new arrivals.
+- Hover effects and animations.
 
-Users can view products, navigate between pages, view product information, select colour choices and make enquiries.
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
 
 ## Timeline and Milestones
 
@@ -49,19 +57,38 @@ Users can view products, navigate between pages, view product information, selec
 - Added forms.
 - Added navigation between pages.
 - Added CSS styling.
+- Added JavaScript functionality.
 
 ### Testing and Completion
 - Tested the website pages and links.
 - Checked the forms and website layout.
+- Tested product search and category filtering.
+- Tested price sorting and image popups.
+- Tested the FAQ accordion and interactive map.
 - Made improvements to the website design and functionality.
-- Check the screen sizes of the website using different devices.
 
 ## Part 1 Details
 
 Part 1 focused on creating the basic structure of the ALORA website using HTML.
 
 ## Part 2 Details
-part 2 focused on adding layouts, decorations and typography using CSS and.
+
+Part 2 focused on improving the website layout, decorations, colours and typography using CSS.
+
+## Part 3 Details
+
+Part 3 focused on improving website functionality using JavaScript and search engine optimisation (SEO).
+
+The improvements include:
+
+- JavaScript product search and category filtering.
+- Product price sorting.
+- Product image popup gallery.
+- Interactive FAQ accordion.
+- Form validation.
+- Interactive map.
+- SEO page titles and meta descriptions.
+- robots.txt and sitemap.xml files.
 
 ## Sitemap
 
@@ -75,18 +102,32 @@ The ALORA website contains the following pages:
 
 ## Changelog
 
-### Version 1
+### Version 1 - Part 1
 - Created the basic website structure.
-- Added new clothing products.
-- Added product images.
-- Added forms.
-- Added map.
+- Added clothing products and images.
+- Added forms and website navigation.
+
+### Version 2 - Part 2
 - Added CSS styling.
-- Updated website navigation.
+- Improved website layouts and typography.
+- Updated the website design.
+
+### Version 3 - Part 3
+- Added JavaScript functionality.
+- Added product search and category filtering.
+- Added price sorting.
+- Added product image popup.
+- Added FAQ accordion.
+- Added an interactive map.
+- Improved form validation.
+- Added SEO meta descriptions.
+- Created robots.txt and sitemap.xml files.
 
 ## Brand Description
 
 ALORA is a clothing brand created to provide comfortable and stylish clothing while allowing customers to explore the collection and make enquiries through the website.
+
+**Brand slogan:** Own The Moment.
 
 ## References
 
@@ -108,3 +149,4 @@ ALORA is a clothing brand created to provide comfortable and stylish clothing wh
 
 - WHATWG. (2026). HTML Living Standard. Available at: https://html.spec.whatwg.org/
 
+-images/pintrest.com
